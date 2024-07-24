@@ -32,8 +32,9 @@ function BmiCalculator() {
 	}; 
 
 	return ( 
+		<div className="bc">
 		<div className="container"> 
-			<h1>GeeksforGeeks BMI Calculator</h1> 
+			<h1>Moon BMI Calculator</h1> 
 			<div className="input-container"> 
 				<label htmlFor="height">Enter Your Height (cm):</label> 
 				<input 
@@ -66,6 +67,7 @@ function BmiCalculator() {
 				</div> 
 			)} 
 		</div> 
+		</div>
 	); 
 } 
 

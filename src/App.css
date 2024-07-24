@@ -6,7 +6,7 @@
 } 
 
 h1 { 
-	color: #1eff00f3; 
+	color: #f3f4f7dc; 
 	text-align: center; 
 	margin-bottom: 20px; 
 } 
@@ -54,3 +54,14 @@ input[type='number'] {
 	color: #007bff; 
 	font-weight: bold; 
 }
+.bc {
+	background: rgb(65, 58, 190);
+	background: linear-gradient(90deg, rgba(65, 58, 190, 1) 0%, rgba(30, 30, 161, 1) 8%, rgba(0, 212, 255, 1) 100%);
+	min-height: 100vh; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white; 
+	font-family: Arial, sans-serif;
+  }
